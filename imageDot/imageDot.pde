@@ -85,7 +85,7 @@ void draw(){
         for(int x = (int)(xdiv*divWidth); x < (xdiv)*divWidth+divWidth/2; x++){
           for(int y = (int)(ydiv*divHeight); y < (ydiv+1)*divHeight-divHeight/2;y++){
             //println("X: " + x + " Y: " + y + " IGX: " + imageGrid.length + " IGY: " + imageGrid[x].length + " xdiv: " + xdiv + " divWidth: " + divWidth + " max:" + (xdiv+1)*divWidth);
-            println("X: " + x + " Y: " + y + " IGX: " + imageGrid.length + " xdiv: " + xdiv + " divWidth: " + divWidth + " max:" + (xdiv)*divWidth+divWidth/2);
+            //println("X: " + x + " Y: " + y + " IGX: " + imageGrid.length + " xdiv: " + xdiv + " divWidth: " + divWidth + " max:" + (xdiv)*divWidth+divWidth/2);
             r+=red(imageGrid[x][y]);          //this went out of bounds portrait right side && landscape bottom && landscape right
             g+=green(imageGrid[x][y]);
             b+=blue(imageGrid[x][y]);
@@ -124,7 +124,7 @@ void draw(){
         counter=0;
         for(int x = (int)((xdiv)*divWidth+divWidth/2); x < (xdiv+1)*divWidth; x++){      //x gets too big
           for(int y = (int)(ydiv*divHeight); y < (ydiv+1)*divHeight;y++){
-            println("X: " + x + " Y: " + y + " IGX: " + imageGrid.length + " IGY: " + imageGrid[x].length + " xdiv: " + xdiv + " divWidth: " + divWidth + " max:" + (xdiv+1)*divWidth);
+            //println("X: " + x + " Y: " + y + " IGX: " + imageGrid.length + " IGY: " + imageGrid[x].length + " xdiv: " + xdiv + " divWidth: " + divWidth + " max:" + (xdiv+1)*divWidth);
             r+=red(imageGrid[x][y]);            //this went out of bound portrait right
             g+=green(imageGrid[x][y]);
             b+=blue(imageGrid[x][y]);
