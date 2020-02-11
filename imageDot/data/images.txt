@@ -1,4 +1,4 @@
-me.jpg
+colors.jpg
 tree.jpg
 overhang.jpg
 waterfall.jpg
